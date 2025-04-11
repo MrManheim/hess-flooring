@@ -1,0 +1,13 @@
+﻿body {
+    font-size: 1.2rem; /* Adjust the base font size as needed */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../img/laminate-wood-close.jpg); /* replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
