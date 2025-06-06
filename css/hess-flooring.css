@@ -1,0 +1,75 @@
+<<<<<<< HEAD
+﻿body {
+    font-size: 1.2rem; /* Adjust the base font size as needed */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.75rem 1rem; /* vertical + horizontal padding */
+}
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #f8f9fa;
+    }
+
+        .navbar .nav-link:hover {
+            color: #d2b48c; /* Tan color on hover */
+        }
+
+        .navbar .nav-link.active {
+            color: #ffe4b5; /* a soft contrast, like moccasin or antique white */
+            font-weight: 500;
+        }
+
+
+.hero {
+    background-image: url(../img/laminate-wood-close.jpg); /* replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.footer-quick-links {
+    padding-left: 2.5rem; /* or use margin-left if you prefer */
+}
+
+.bg-walnut {
+    background-blend-mode: multiply;
+    background-color: #6A6057;
+    background-image: 
+        linear-gradient(rgba(95, 85, 80, 0.35), 
+    rgba(95, 85, 80, 0.35)), 
+        url('../img/wooden-flooring-textured-background-design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #f8f9fa;
+    filter: hue-rotate(-10deg) saturate(0.75) brightness(1.05);
+}
+
+    .bg-walnut a {
+        color: #f8f9fa;
+    }
+
+        .bg-walnut a:hover {
+            color: #d2b48c;
+        }
+=======
+﻿body {
+    font-size: 1.2rem; /* Adjust the base font size as needed */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(../img/laminate-wood-close.jpg); /* replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+}
+>>>>>>> 75579856c5ad087b68a6264c16ae355450f35888
