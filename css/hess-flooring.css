@@ -58,7 +58,6 @@ body {
             color: #d2b48c;
         }
 
-
 .card-hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -77,3 +76,10 @@ body {
         transform: scale(1.05);
         filter: grayscale(0%);
     }
+
+/* Makes image full-width up to lg, then 50% width from xl and up */
+@media (min-width: 1024px) {
+    .w-xl-50-custom {
+        width: 50% !important;
+    }
+}
