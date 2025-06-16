@@ -2,74 +2,178 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Hess Flooring Installation</title>
+    <title>Hess Flooring: Installation and Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
 
-    <meta name="date" content="April 10, 2025" />
+    <meta name="date" content="June 16, 2025" />
     <meta name="Author" content="Chuck Frank" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
 
     <!--styles-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-    <style>
-        .navbar-walnut {
-            background-blend-mode: multiply;
-            background-color: #6A6057; /* Desaturated, aged walnut base */
-            background-image: 
-                linear-gradient(rgba(95, 85, 80, 0.35), rgba(95, 85, 80, 0.35)), /* gentle cool overlay */
-                url('img/wooden-flooring-textured-background-design.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-blend-mode: overlay;
-            color: #f8f9fa;
-            filter: hue-rotate(-10deg) saturate(0.75) brightness(1.05); /* aging effect */
-        }
-
-
-            .navbar-walnut .navbar-brand,
-            .navbar-walnut .nav-link {
-                color: #f8f9fa;
-            }
-
-                .navbar-walnut .nav-link:hover {
-                    color: #d2b48c; /* Tan color on hover */
-                }
-    </style>
+    <link href="css/hess-flooring.css" rel="stylesheet" />
 
     <!--scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/287699c851.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-walnut">
+    <nav class="navbar border-bottom navbar-expand-lg bg-body-tertiary sticky-top bg-walnut" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">YourBrand</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <a class="navbar-brand" href="#"><i class="fas fa-home me-2"></i>Hess Flooring</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="about-hess-flooring.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="hess-flooring-services.html">Our Services</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                    <li>
+                        <a class="nav-link" href="hess-flooring-products.html">Products</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                    <li>
+                        <a class="nav-link" href="hess-flooring-projects.html">View Projects</a>
                     </li>
                 </ul>
             </div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light px-3" href="contact-hess-flooring.html">
+                        <i class="fas fa-envelope me-2"></i>Contact Us!
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
+    <nav aria-label="breadcrumb" class="bg-light py-2 border-bottom">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Our Services</li>
+            </ol>
+        </div>
+    </nav>
+    <!-- Services Content -->
+    <section class="container my-5">
+        <h2 class="mb-4 text-center">Our Flooring Services</h2>
 
+        <!-- Design Consultation -->
+        <div class="row align-items-start mb-5">
+            <div class="col-md-8">
+                <h3>Design Consultation</h3>
+                <p>Choosing the right flooring can transform the feel and function of your space. Our team is here to help guide you through the decision-making process with professional design consultations. We'll review your space, style preferences, and practical needs to recommend the best flooring types, colors, and finishes that bring your vision to life.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/landscape-image.jpg" alt="Flooring design consultation" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
 
+        <!-- Vinyl and Hardwood -->
+        <div class="row align-items-start mb-5">
+            <div class="col-md-8">
+                <h3>Vinyl and Hardwood Flooring Installation</h3>
+                <p>We offer expert installation of both luxury vinyl and traditional hardwood flooring. Vinyl plank flooring provides the look of hardwood with added durability and moisture resistance—perfect for kitchens, bathrooms, and basements. Our hardwood installations are completed with precision to ensure timeless beauty and lasting value.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/landscape-image.jpg" alt="Vinyl and hardwood floor installation" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+
+        <!-- Carpet & Tile -->
+        <div class="row align-items-start mb-5">
+            <div class="col-md-8">
+                <h3>Carpet & Tile Installation</h3>
+                <p>Warm, quiet, and comfortable, carpet remains a top choice for bedrooms, living rooms, and offices. Our installers ensure a seamless fit with proper padding and edge trimming. We also install ceramic, porcelain, and stone tiles with attention to detail and a focus on longevity, making tile an excellent option for kitchens, bathrooms, and high-traffic areas.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/landscape-image.jpg" alt="Carpet and tile flooring installation" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+
+        <!-- Laminate & Molding -->
+        <div class="row align-items-start mb-5">
+            <div class="col-md-8">
+                <h3>Laminate & Molding Work</h3>
+                <p>Laminate flooring is a cost-effective, durable option that mimics the look of wood or stone. It's a great solution for high-traffic areas and active households. We also install baseboards, quarter round, shoe molding, and transition pieces to complete the look and protect your walls and edges.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/landscape-image.jpg" alt="Laminate flooring and trim installation" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+
+        <p class="mt-4">No matter the material or size of the project, Hess Flooring is committed to providing high-quality workmanship and outstanding customer service. We stand by our work and take pride in making your flooring upgrade a smooth, stress-free experience.</p>
+    </section>
+
+    <footer class="bg-walnut text-white pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column: Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="text-uppercase">Contact Us</h5>
+                    <form action="https://docs.google.com/forms/d/e/1GsfRniJbi6gD7Uqj3kpuOlwrtUek0-N_cG4SOy_mUAU/formResponse" method="POST" target="_blank">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="entry.1486928687" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="entry.588116140" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" name="entry.244316051" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-outline-light">
+                            <i class="fas fa-paper-plane me-2"></i>Send
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Middle Column: Google Map -->
+                <div class="col-md-4 mb-4 ps-md-5 border-md-end pe-md-4">
+
+                    <address class="mb-0">
+                        <strong>Hess Flooring</strong><br />
+                        949 N. Strickler Rd.<br />
+                        Manheim, PA 17545<br /><br />
+                        <a href="mailto:bhessflooringinc@gmail.com" class="text-white text-decoration-underline"><i class="fas fa-envelope me-2"></i>bhessflooringinc@gmail.com</a><br />
+                        <strong><i class="fas fa-phone me-2"></i>P:</strong> (717) 665-6759<br />
+                        <strong><i class="fas fa-fax me-2"></i>F:</strong> (717) 664-5581<br />
+                    </address>
+                </div>
+
+                <!-- Right Column: Quick Links -->
+                <div class="col-md-4 mb-4 border-md-end pe-md-4 footer-quick-links">
+                    <h5 class="text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white"><i class="fas fa-home me-2"></i>Home</a></li>
+                        <li><a href="about-hess-flooring.html" class="text-white"><i class="fas fa-info-circle me-2"></i>About Us</a></li>
+                        <li><a href="hess-flooring-services.html" class="text-white"><i class="fas fa-tools me-2"></i>Our Services</a></li>
+                        <li><a href="hess-flooring-products.html" class="text-white"><i class="fas fa-boxes me-2"></i>Products</a></li>
+                        <li><a href="hess-flooring-projects.html" class="text-white"><i class="fas fa-images me-2"></i>View Projects</a></li>
+                        <li><a href="contact-hess-flooring.html" class="text-white"><i class="fas fa-envelope me-2"></i>Contact Us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="text-center pt-3 border-top border-secondary">
+                <small>&copy; 2025 Hess Flooring. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
